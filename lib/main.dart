@@ -81,16 +81,20 @@ class _LoginPageState extends State<LoginPage>{
                 SizedBox(height: 30,),
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 20),
-                      child: ElevatedButton(onPressed: (){},
-                          child: Center(
-                              child: Text(
-                                    'Log In',
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold
-                                    ),
-                              )
-                          ),
+                      child: SizedBox(
+                        height: 35 ,
+                        width: 1500,
+                        child: ElevatedButton(onPressed: (){},
+                            child: Center(
+                                child: Text(
+                                      'Log In',
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold
+                                      ),
+                                )
+                            ),
+                        ),
                       ),
                   ),
 
